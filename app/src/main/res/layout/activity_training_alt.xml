@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alt_dynamic_text_view"
+        android:text="dynamic text"
+        android:textSize="26sp"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start training"
+        android:id="@+id/alt_training_btn"
+        android:onClick="startAltCounting"
+        android:layout_marginTop="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alt_dynamic_text_view"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Second text"
+        android:id="@+id/alt_second_text_view"
+        android:layout_below="@+id/alt_dynamic_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_field"
+        android:layout_below="@id/alt_training_btn"
+        android:layout_centerHorizontal="true"
+        android:hint="Edit this text"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_field"
+        android:id="@+id/inflatable_button_view"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_bright"
+        >   </LinearLayout>
+
+
+</RelativeLayout>

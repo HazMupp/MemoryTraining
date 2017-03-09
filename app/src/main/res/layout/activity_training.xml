@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dynamic_text_view"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/short_brief_en"
+        android:textSize="29sp"
+        android:layout_marginTop="98dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp"
+        android:text="@string/second_short_brief_en"
+        android:id="@+id/second_text_view"
+        android:layout_marginTop="27dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/dynamic_text_view"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_training_button_en"
+        android:id="@+id/training_btn"
+        android:layout_marginTop="27dp"
+        android:onClick="startCounting"
+        android:background="@android:color/holo_red_light"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/points_view_wrong"
+        android:layout_centerInParent="true" />
+
+
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_field"
+        android:hint="@string/editText_hint_en"
+        android:inputType="number"
+        android:layout_alignTop="@+id/submit_btn"
+        android:layout_toLeftOf="@+id/submit_btn"
+         />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_btn"
+        android:text="@string/submit_button_eng"
+        android:onClick="checkEditText"
+        android:background="@android:color/holo_red_light"
+        android:layout_above="@+id/fab"
+        android:layout_toRightOf="@+id/training_btn"
+        android:layout_marginBottom="29dp"
+        android:layout_alignRight="@+id/fab"
+        android:layout_alignEnd="@+id/fab" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="45"
+        android:id="@+id/points_view_correct"
+        android:layout_below="@+id/second_text_view"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="haha"
+        android:layout_below="@id/points_view_correct"
+        android:id="@+id/points_view_wrong"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@android:drawable/stat_notify_sync_noanim"
+        android:onClick="reloadPage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_red_light"
+        />
+
+
+
+
+
+</RelativeLayout>

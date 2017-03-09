@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.idea/inspectionProfiles/
+".idea/misc (Konfliktkopia f\303\266r Peters_Laptop 2016-04-05).xml"
+".idea/workspace (Konfliktkopia f\303\266r Peters_Laptop 2016-04-05).xml"
+".idea/workspace (Konfliktkopia f\303\266r Peters_Laptop 2016-04-12).xml"
+".idea/workspace (Konfliktkopia f\303\266r Peters_Laptop 2016-04-19).xml"
+".idea/workspace (Konfliktkopia f\303\266r Peters_Laptop 2016-04-28).xml"
+app/app-release.apk
+app/libs/
+app/src/main/assets/
+app/src/main/res/drawable/
+app/src/main/res/layout-land/
+app/src/main/res/layout/temporary.xml
+app/src/main/res/mipmap-hdpi/start_icon/

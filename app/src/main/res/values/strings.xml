@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MemoryTraining</string>
+    <string name="welcome_en">Welcome to MyMemoryTraining</string>
+    <string name="welcome_sv">Välkommen till MyMemoryTraining</string>
+    <string name="start_button_en">START</string>
+    <string name="start_button_sv">START</string>
+    <string name="alt_start_button_en">ALT START</string>
+    <string name="alt_start_button_sv">START</string>
+    <string name="statistics_button_en">STATISTICS</string>
+    <string name="statistics_button_sv">STATISTIK</string>
+    <string name="start_training_button_en">START TRAINING</string>
+    <string name="start_training_button_sv">Börja träna</string>
+    <string name="short_brief_en">After pressing "start training", dont focus on this text</string>
+    <string name="short_brief_sv">Efter att ha tryckt "Börja Träna", fokusera inte på denna text</string>
+    <string name="second_short_brief_en">Focus on this instead</string>
+    <string name="second_short_brief_sv">Fokusera på detta istället</string>
+    <string name="editText_hint_en">Answer...</string>
+    <string name="editText_hint_sv">Svar...</string>
+    <string name="submit_button_eng">SUBMIT</string>
+    <string name="submit_button_sv">SVARA</string>
+    <string name="right_guesses_en">Number of right guesses:</string>
+    <string name="right_guesses_sv">Antal rätt svar: </string>
+    <string name="wrong_guesses_en">Number of wrong guesses: </string>
+    <string name="wrong_guesses_sv">Antal fel svar: </string>
+    <string name="your_answers_en">Your answers: </string>
+    <string name="your_answers_sv">Dina svar: </string>
+    <string name="right_answers_en">The right answers: </string>
+    <string name="right_answers_sv">De rätta svaren: </string>
+    <string name="done_en">Done! Now type in the numbers in the correct order.</string>
+    <string name="done_sv">Klart! Skriv nu in talen i rätt ordning</string>
+    <string name="next_number_en">Next number</string>
+    <string name="next_number_ev">Nästa tal</string>
+
+
+
+
+</resources>
